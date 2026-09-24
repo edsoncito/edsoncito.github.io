@@ -42,22 +42,28 @@ const translations = {
     "nav.projects": "PROYECTOS",
     "nav.contact": "CONTACTO",
     "home.eyebrow": "SOFTWARE ENGINEER / BACKEND SPECIALIST",
-    "home.copy": "Más de 6 años construyendo sistemas empresariales escalables, mantenibles y orientados al negocio.",
+    "home.copy": "Ingeniero de Sistemas con más de 6 años desarrollando soluciones backend, financieras y transaccionales con Java y Spring Boot.",
     "home.projects": "[ VER PROYECTOS ]",
     "home.available": "DISPONIBLE PARA NUEVOS RETOS",
-    "profile.title": "INGENIERO QUE CONVIERTE COMPLEJIDAD EN SISTEMAS CLAROS.",
-    "profile.p1": "Soy ingeniero de software con más de seis años de experiencia. Mi especialidad es diseñar backends robustos con Java y Spring Boot, aplicando arquitectura hexagonal, DDD y CQRS cuando el problema realmente lo requiere.",
-    "profile.p2": "He participado desde el descubrimiento y modelado del dominio hasta la puesta en producción, trabajando con equipos ágiles y productos operativos y financieros.",
-    "experience.architecture": "ARQUITECTURA Y DESARROLLO DE PRODUCTOS",
-    "experience.architectureCopy": "Diseño de dominios, IAM multi-tenant, integraciones empresariales y plataformas transaccionales con foco en mantenibilidad y evolución.",
-    "experience.backendCopy": "APIs, microservicios, procesamiento asíncrono, seguridad, persistencia y observabilidad en entornos productivos.",
-    "experience.cycleCopy": "Participación en relevamiento, modelado, implementación, despliegue y mejora continua del producto.",
+    "profile.title": "INGENIERO DE SISTEMAS ESPECIALIZADO EN BACKEND Y ARQUITECTURA.",
+    "profile.p1": "Cuento con más de seis años de experiencia desarrollando software, con especialización en Java, Spring Boot y sistemas basados en microservicios, arquitectura hexagonal, DDD y CQRS.",
+    "profile.p2": "He construido soluciones para pagos, prevención de lavado de activos, banca digital, ERP, salud, movilidad y comercio electrónico, participando desde la concepción hasta la puesta en producción.",
+    "experience.zensy.role": "INGENIERO BACKEND",
+    "experience.zensy.copy": "Lideré un middleware transaccional con Java y Spring Boot para pagos QR que procesó cerca de USD 2 millones en su primer mes. También implementé un nuevo onboarding KYC y workflows idempotentes para transferencias y pagos.",
+    "experience.ganadero.role": "DESARROLLADOR DE SOFTWARE",
+    "experience.ganadero.copy": "Desarrollé un middleware AML con Java y Spring Batch, participé en la arquitectura y rediseño de la app bancaria e implementé CI/CD con Azure DevOps, Docker y Jenkins.",
+    "experience.digitalHarbor.role": "DESARROLLADOR DE SOFTWARE",
+    "experience.digitalHarbor.copy": "Implementé funcionalidades de negocio y un componente reutilizable para gestionar datos temporales compartidos entre módulos con Angular y Spring Boot.",
+    "experience.servisis.role": "DESARROLLADOR FULL STACK",
+    "experience.servisis.copy": "Desarrollé aplicaciones web y móviles con React.js y React Native para salud, movilidad y comercio electrónico.",
+    "experience.tdep.role": "DESARROLLADOR DE SOFTWARE",
+    "experience.tdep.copy": "Elaboré reportes con SQL Server y BIRT, e integré servicios REST para la implementación, mantenimiento y soporte de un ERP.",
     "projects.erp": "ERP modular con dominio de productos, clientes y órdenes.",
     "projects.pos": "Sistema de punto de venta organizado por capas y unidad de trabajo.",
     "projects.transaction": "Servicios para pagos, conciliación e integración con proveedores.",
     "projects.insurance": "Modelado de organizaciones, roles, permisos y operación aseguradora.",
     "contact.title": "HABLEMOS DE SOFTWARE, ARQUITECTURA Y PRODUCTOS QUE NECESITAN CRECER BIEN.",
-    "contact.copy": "Puedes revisar mi trabajo público y contactarme directamente desde GitHub.",
+    "contact.copy": "Conecta conmigo en LinkedIn, revisa mi trabajo público en GitHub o escríbeme por correo.",
   },
   en: {
     "nav.home": "HOME",
@@ -66,22 +72,28 @@ const translations = {
     "nav.projects": "PROJECTS",
     "nav.contact": "CONTACT",
     "home.eyebrow": "SOFTWARE ENGINEER / BACKEND SPECIALIST",
-    "home.copy": "Over 6 years building scalable, maintainable enterprise systems aligned with business needs.",
+    "home.copy": "Systems Engineer with over 6 years building backend, financial and transactional solutions with Java and Spring Boot.",
     "home.projects": "[ VIEW PROJECTS ]",
     "home.available": "OPEN TO NEW CHALLENGES",
-    "profile.title": "AN ENGINEER WHO TURNS COMPLEXITY INTO CLEAR SYSTEMS.",
-    "profile.p1": "I am a software engineer with more than six years of experience. I specialize in robust backends with Java and Spring Boot, applying Hexagonal Architecture, DDD and CQRS when the problem genuinely calls for them.",
-    "profile.p2": "I have contributed from discovery and domain modeling through production delivery, working with agile teams and operational and financial products.",
-    "experience.architecture": "PRODUCT ARCHITECTURE AND ENGINEERING",
-    "experience.architectureCopy": "Domain design, multi-tenant IAM, enterprise integrations and transactional platforms built for maintainability and evolution.",
-    "experience.backendCopy": "APIs, microservices, asynchronous processing, security, persistence and observability in production environments.",
-    "experience.cycleCopy": "Hands-on involvement in discovery, modeling, implementation, deployment and continuous product improvement.",
+    "profile.title": "SYSTEMS ENGINEER SPECIALIZED IN BACKEND AND SOFTWARE ARCHITECTURE.",
+    "profile.p1": "I have over six years of software development experience, specializing in Java, Spring Boot and systems based on microservices, Hexagonal Architecture, DDD and CQRS.",
+    "profile.p2": "I have built solutions for payments, anti-money laundering, digital banking, ERP, healthcare, mobility and e-commerce, contributing from inception through production delivery.",
+    "experience.zensy.role": "BACKEND ENGINEER",
+    "experience.zensy.copy": "I led a Java and Spring Boot transactional middleware for QR payments that processed nearly USD 2 million in its first month. I also delivered a new KYC onboarding flow and idempotent workflows for transfers and payments.",
+    "experience.ganadero.role": "SOFTWARE DEVELOPER",
+    "experience.ganadero.copy": "I built an AML middleware with Java and Spring Batch, contributed to the banking app architecture and redesign, and implemented CI/CD with Azure DevOps, Docker and Jenkins.",
+    "experience.digitalHarbor.role": "SOFTWARE DEVELOPER",
+    "experience.digitalHarbor.copy": "I delivered business features and a reusable component for temporary data shared across modules using Angular and Spring Boot.",
+    "experience.servisis.role": "FULL-STACK DEVELOPER",
+    "experience.servisis.copy": "I developed web and mobile applications with React.js and React Native for healthcare, mobility and e-commerce.",
+    "experience.tdep.role": "SOFTWARE DEVELOPER",
+    "experience.tdep.copy": "I created reports with SQL Server and BIRT and integrated REST services for ERP implementation, maintenance and support.",
     "projects.erp": "A modular ERP covering products, customers and orders.",
     "projects.pos": "A layered point-of-sale system using a unit-of-work approach.",
     "projects.transaction": "Services for payments, reconciliation and provider integrations.",
     "projects.insurance": "Modeling organizations, roles, permissions and insurance operations.",
     "contact.title": "LET'S TALK ABOUT SOFTWARE, ARCHITECTURE AND PRODUCTS THAT NEED TO SCALE WELL.",
-    "contact.copy": "Explore my public work and reach me directly through GitHub.",
+    "contact.copy": "Connect with me on LinkedIn, explore my public work on GitHub, or send me an email.",
   },
 };
 
@@ -117,12 +129,15 @@ function executeCommand() {
   }
 
   if (command === "help") {
-    commandFeedback.textContent = "home · whoami · experience · projects · stack · contact · clear";
+    commandFeedback.textContent = "home · whoami · experience · projects · stack · contact · linkedin · github · clear";
   } else if (command === "clear") {
     commandFeedback.textContent = "console cleared";
   } else if (command === "github") {
     window.open("https://github.com/edsoncito", "_blank", "noopener,noreferrer");
     commandFeedback.textContent = "opening github...";
+  } else if (command === "linkedin") {
+    window.open("https://www.linkedin.com/in/edson-gonzalo", "_blank", "noopener,noreferrer");
+    commandFeedback.textContent = "opening linkedin...";
   } else if (commandAliases[command]) {
     showView(commandAliases[command]);
     commandFeedback.textContent = `executed: ${programNames[commandAliases[command]]}`;
