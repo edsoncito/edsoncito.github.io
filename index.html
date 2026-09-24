@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Edson Gonzalo, ingeniero de software especializado en Java, Spring Boot y arquitectura de software."
+    />
+    <meta name="theme-color" content="#050806" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23050806'/%3E%3Cpath d='M13 13h38v8H22v7h23v8H22v7h29v8H13z' fill='%233cff6b'/%3E%3C/svg%3E"
+    />
+    <title>Edson Gonzalo | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#workspace">Saltar al contenido</a>
+
+    <div class="system-shell" id="app">
+      <header class="system-bar">
+        <div class="system-brand" aria-label="Edson Workstation">
+          <span class="brand-mark" aria-hidden="true">EG</span>
+          <span class="brand-title">EDSON WORKSTATION</span>
+          <span class="version">v1.0.0</span>
+        </div>
+
+        <div class="system-controls">
+          <span class="system-status"><i aria-hidden="true"></i> ONLINE</span>
+          <time id="system-clock" aria-label="Hora local de Santa Cruz, Bolivia">--:--:--</time>
+          <button class="utility-button" id="language-toggle" type="button" aria-label="Cambiar idioma">
+            ES
+          </button>
+          <a
+            class="utility-button github-button"
+            href="https://github.com/edsoncito"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Abrir GitHub de Edson"
+          >
+            GH ↗
+          </a>
+        </div>
+      </header>
+
+      <nav class="program-menu" aria-label="Secciones del portafolio">
+        <button class="program-tab is-active" type="button" data-view="home" aria-selected="true">
+          <span>01</span><b data-i18n="nav.home">INICIO</b>
+        </button>
+        <button class="program-tab" type="button" data-view="profile" aria-selected="false">
+          <span>02</span><b data-i18n="nav.profile">PERFIL</b>
+        </button>
+        <button class="program-tab" type="button" data-view="experience" aria-selected="false">
+          <span>03</span><b data-i18n="nav.experience">EXPERIENCIA</b>
+        </button>
+        <button class="program-tab" type="button" data-view="projects" aria-selected="false">
+          <span>04</span><b data-i18n="nav.projects">PROYECTOS</b>
+        </button>
+        <button class="program-tab" type="button" data-view="stack" aria-selected="false">
+          <span>05</span><b>STACK</b>
+        </button>
+        <button class="program-tab" type="button" data-view="contact" aria-selected="false">
+          <span>06</span><b data-i18n="nav.contact">CONTACTO</b>
+        </button>
+      </nav>
+
+      <main class="workspace" id="workspace" tabindex="-1">
+        <section class="view is-visible" id="view-home" data-view-panel="home">
+          <article class="retro-window hero-window">
+            <header class="window-bar">
+              <span>PROFILE.EXE</span>
+              <div class="window-actions" aria-hidden="true"><i>_</i><i>□</i><i>×</i></div>
+            </header>
+            <div class="window-body hero-content">
+              <div class="boot-log" aria-label="Estado del sistema">
+                <p><span>&gt;</span> loading professional_profile...</p>
+                <p><span>&gt;</span> architecture_modules: <strong>READY</strong></p>
+                <p><span>&gt;</span> location: Santa Cruz, Bolivia</p>
+              </div>
+
+              <p class="eyebrow" data-i18n="home.eyebrow">SOFTWARE ENGINEER / BACKEND SPECIALIST</p>
+              <h1>EDSON<br /><span>GONZALO</span></h1>
+              <p class="hero-copy" data-i18n="home.copy">
+                Más de 6 años construyendo sistemas empresariales escalables, mantenibles y orientados al negocio.
+              </p>
+
+              <div class="hero-actions">
+                <button class="retro-button primary" type="button" data-open-view="projects" data-i18n="home.projects">
+                  [ VER PROYECTOS ]
+                </button>
+                <a class="retro-button" href="https://github.com/edsoncito" target="_blank" rel="noreferrer">
+                  [ GITHUB ↗ ]
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <aside class="retro-window status-window">
+            <header class="window-bar inverse">
+              <span>SYSTEM.STATUS</span>
+              <span aria-hidden="true">?</span>
+            </header>
+            <div class="window-body status-content">
+              <div class="availability"><span></span><b data-i18n="home.available">DISPONIBLE PARA NUEVOS RETOS</b></div>
+              <dl>
+                <div><dt>ROLE</dt><dd>Software Engineer</dd></div>
+                <div><dt>CORE</dt><dd>Java / Spring Boot</dd></div>
+                <div><dt>DESIGN</dt><dd>DDD / CQRS / Hexagonal</dd></div>
+                <div><dt>SYSTEMS</dt><dd>Microservices / Event-driven</dd></div>
+                <div><dt>UPTIME</dt><dd>6+ years</dd></div>
+              </dl>
+            </div>
+          </aside>
+        </section>
+
+        <section class="view" id="view-profile" data-view-panel="profile" hidden>
+          <article class="retro-window wide-window">
+            <header class="window-bar"><span>WHOAMI.TXT</span><div class="window-actions" aria-hidden="true"><i>_</i><i>□</i><i>×</i></div></header>
+            <div class="window-body document-layout">
+              <div>
+                <p class="command-line">$ whoami --verbose</p>
+                <h2 data-i18n="profile.title">INGENIERO QUE CONVIERTE COMPLEJIDAD EN SISTEMAS CLAROS.</h2>
+                <p data-i18n="profile.p1">
+                  Soy ingeniero de software con más de seis años de experiencia. Mi especialidad es diseñar backends robustos con Java y Spring Boot, aplicando arquitectura hexagonal, DDD y CQRS cuando el problema realmente lo requiere.
+                </p>
+                <p data-i18n="profile.p2">
+                  He participado desde el descubrimiento y modelado del dominio hasta la puesta en producción, trabajando con equipos ágiles y productos operativos y financieros.
+                </p>
+              </div>
+              <div class="facts-panel" aria-label="Datos profesionales">
+                <p><span>BASE</span> Santa Cruz, Bolivia</p>
+                <p><span>FOCUS</span> Backend & Architecture</p>
+                <p><span>LANG</span> Java, C#, JavaScript</p>
+                <p><span>MODE</span> Product-minded</p>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="view" id="view-experience" data-view-panel="experience" hidden>
+          <article class="retro-window wide-window">
+            <header class="window-bar"><span>EXPERIENCE.LOG</span><div class="window-actions" aria-hidden="true"><i>_</i><i>□</i><i>×</i></div></header>
+            <div class="window-body">
+              <p class="command-line">$ tail -f career.log</p>
+              <div class="timeline">
+                <article>
+                  <time>NOW</time>
+                  <div><h2 data-i18n="experience.architecture">ARQUITECTURA Y DESARROLLO DE PRODUCTOS</h2><p data-i18n="experience.architectureCopy">Diseño de dominios, IAM multi-tenant, integraciones empresariales y plataformas transaccionales con foco en mantenibilidad y evolución.</p></div>
+                </article>
+                <article>
+                  <time>6+ YRS</time>
+                  <div><h2>BACKEND ENGINEERING</h2><p data-i18n="experience.backendCopy">APIs, microservicios, procesamiento asíncrono, seguridad, persistencia y observabilidad en entornos productivos.</p></div>
+                </article>
+                <article>
+                  <time>FULL CYCLE</time>
+                  <div><h2>DEL DESCUBRIMIENTO A PRODUCCIÓN</h2><p data-i18n="experience.cycleCopy">Participación en relevamiento, modelado, implementación, despliegue y mejora continua del producto.</p></div>
+                </article>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="view" id="view-projects" data-view-panel="projects" hidden>
+          <article class="retro-window wide-window">
+            <header class="window-bar"><span>PROJECTS.DIR</span><div class="window-actions" aria-hidden="true"><i>_</i><i>□</i><i>×</i></div></header>
+            <div class="window-body">
+              <div class="projects-header">
+                <p class="command-line">$ ls ./projects --featured</p>
+                <div class="project-filters" role="group" aria-label="Filtrar proyectos">
+                  <button class="filter-button is-active" type="button" data-filter="all">ALL</button>
+                  <button class="filter-button" type="button" data-filter="java">JAVA</button>
+                  <button class="filter-button" type="button" data-filter="dotnet">.NET</button>
+                  <button class="filter-button" type="button" data-filter="architecture">ARCH</button>
+                </div>
+              </div>
+
+              <div class="project-list">
+                <article class="project-row" data-tags="java architecture">
+                  <div class="project-id">P-001</div>
+                  <div><h2>ERP LITE</h2><p>Spring Boot 4 · DDD · CQRS · PostgreSQL</p><small data-i18n="projects.erp">ERP modular con dominio de productos, clientes y órdenes.</small></div>
+                  <a href="https://github.com/edsoncito/erp-lite-springboot-4" target="_blank" rel="noreferrer" aria-label="Abrir ERP Lite en GitHub">OPEN ↗</a>
+                </article>
+                <article class="project-row" data-tags="dotnet architecture">
+                  <div class="project-id">P-002</div>
+                  <div><h2>POS.EXPRESS</h2><p>.NET 8 · EF Core · Layered Architecture</p><small data-i18n="projects.pos">Sistema de punto de venta organizado por capas y unidad de trabajo.</small></div>
+                  <a href="https://github.com/edsoncito/Pos.express" target="_blank" rel="noreferrer" aria-label="Abrir POS Express en GitHub">OPEN ↗</a>
+                </article>
+                <article class="project-row" data-tags="java architecture">
+                  <div class="project-id">P-003</div>
+                  <div><h2>TRANSACTION PLATFORM</h2><p>Java · Spring Boot · PostgreSQL · Redis</p><small data-i18n="projects.transaction">Servicios para pagos, conciliación e integración con proveedores.</small></div>
+                  <span class="private-badge">CASE STUDY</span>
+                </article>
+                <article class="project-row" data-tags="java architecture">
+                  <div class="project-id">P-004</div>
+                  <div><h2>MULTI-TENANT INSURANCE CORE</h2><p>Java · DDD · IAM · Multi-tenant</p><small data-i18n="projects.insurance">Modelado de organizaciones, roles, permisos y operación aseguradora.</small></div>
+                  <span class="private-badge">IN PROGRESS</span>
+                </article>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="view" id="view-stack" data-view-panel="stack" hidden>
+          <article class="retro-window wide-window">
+            <header class="window-bar"><span>STACK.JSON</span><div class="window-actions" aria-hidden="true"><i>_</i><i>□</i><i>×</i></div></header>
+            <div class="window-body">
+              <p class="command-line">$ inspect --capabilities stack.json</p>
+              <div class="stack-grid">
+                <article><span>01 / CORE</span><h2>BACKEND</h2><p>Java · Spring Boot · Spring Security · .NET 8 · REST · WebFlux</p></article>
+                <article><span>02 / DESIGN</span><h2>ARCHITECTURE</h2><p>DDD · CQRS · Hexagonal · Clean Architecture · Microservices</p></article>
+                <article><span>03 / DATA</span><h2>DATABASES</h2><p>PostgreSQL · Oracle · MySQL · SQL Server · MongoDB · Redis</p></article>
+                <article><span>04 / DELIVERY</span><h2>PLATFORM</h2><p>Docker · Kubernetes · Kafka · CI/CD · Argo CD · Grafana</p></article>
+                <article><span>05 / UI</span><h2>FRONTEND</h2><p>JavaScript · TypeScript · React · Angular · Tailwind CSS</p></article>
+                <article><span>06 / METHOD</span><h2>ENGINEERING</h2><p>Agile · Testing · Code Review · Domain Modeling · Observability</p></article>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="view" id="view-contact" data-view-panel="contact" hidden>
+          <article class="retro-window contact-window">
+            <header class="window-bar"><span>CONTACT.SH</span><div class="window-actions" aria-hidden="true"><i>_</i><i>□</i><i>×</i></div></header>
+            <div class="window-body contact-content">
+              <p class="command-line">$ ./contact.sh --open</p>
+              <p class="contact-code">STATUS: <strong>READY_TO_CONNECT</strong></p>
+              <h2 data-i18n="contact.title">HABLEMOS DE SOFTWARE, ARQUITECTURA Y PRODUCTOS QUE NECESITAN CRECER BIEN.</h2>
+              <p data-i18n="contact.copy">Puedes revisar mi trabajo público y contactarme directamente desde GitHub.</p>
+              <a class="retro-button primary" href="https://github.com/edsoncito" target="_blank" rel="noreferrer">[ OPEN GITHUB ↗ ]</a>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <section class="command-dock" aria-label="Consola rápida">
+        <label for="command-input">edson@portfolio:~$</label>
+        <input
+          id="command-input"
+          name="command"
+          type="text"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="help"
+          aria-describedby="command-feedback"
+        />
+        <button id="run-command" type="button">RUN</button>
+        <output id="command-feedback" aria-live="polite">type “help” or select a program</output>
+      </section>
+
+      <footer class="status-bar">
+        <span>PORTFOLIO://EDSON_GONZALO</span>
+        <button id="effects-toggle" type="button" aria-pressed="true">CRT: ON</button>
+        <span id="active-program">ACTIVE: HOME.EXE</span>
+      </footer>
+    </div>
+  </body>
+</html>
